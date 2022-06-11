@@ -1,9 +1,15 @@
 import React from 'react';
+import { Routes,Route } from 'react-router-dom';
+import Header from './components/Home/Header/Header';
+import Home from './components/Home/Home/Home';
 
 const App = () => {
   return (
     <div>
-      <h1>project setup assignment-10</h1>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}>Home</Route>
+      </Routes>
     </div>
   );
 };
