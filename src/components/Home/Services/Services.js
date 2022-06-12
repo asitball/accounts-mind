@@ -11,8 +11,8 @@ const Services = () => {
     },[])
    
     return (
-        <div className='container'>
-           <h3>total data: {services.length}</h3>
+        <div className='container m-5'>
+           <h3>Services</h3>
           <div className='row g-4'>
           {
             services.map(service => <Service key={service.id} service={service}></Service>)
