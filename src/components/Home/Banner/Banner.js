@@ -12,7 +12,7 @@ const Banner = () => {
         setIndex(selectedIndex);
     };
     return (
-        <div className='w-100%'>
+        <div className='container '>
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img

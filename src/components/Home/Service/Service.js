@@ -9,7 +9,7 @@ const Service = ({ service }) => {
        navigate(`/service/${id}`)
     }
     return (
-            <Card style={{ width: '22rem'  }}>
+            <Card id='services' style={{ width: '22rem'  }}>
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                     <Card.Title>{service_name}</Card.Title>
