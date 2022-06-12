@@ -4,53 +4,60 @@
     "service_name": "Financial Analysis",
     "service_detail": "When a business is able to undertake strong financial analysis, it opens up new opportunities to improve management, planning and decision making. Financial analysis provides the numbers to support reject or contemplate a course of action.",
     "service_rate":25000
-  }
+  },
   {
     "id":2 ,
     "image": "https://i.ibb.co/5v3R6fw/corporate-taxation.png",
     "service_name": "Corporate Taxation",
     "service_detail": "I am provide good corporate Taxation solution.",
     "service_rate":30000
-  }{
+  },
+  {
     "id": 3,
     "image": "https://i.ibb.co/Q9JH1Tj/account-outsorcing.png",
     "service_name": "Accounts Outsorcing",
     "service_detail": "Outsourced accounting is a service which provides a full, accounting department experience for small businesses",
     "service_rate":12000
-  }{
+  }
+  ,{
     "id": 4,
     "image": "https://i.ibb.co/rpJ95Q1/audting.png",
     "service_name": "Auditing",
     "service_detail": "Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.",
     "service_rate":14000
-  }{
+  },
+  {
     "id": 5,
     "image": "https://i.ibb.co/FwxYgSj/Investment-Analysis.png",
     "service_name": "Investment Analysis",
     "service_detail": "Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.",
     "service_rate":35000
-  }{
+  },
+  {
     "id": 6,
     "image": "https://i.ibb.co/P16RCL9/tax-vat.png",
     "service_name": "Tax & Vat Solution",
     "service_detail": "Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.",
     "service_rate":17000
-  }{
+  }
+  ,{
     "id": 7,
     "image": "https://i.ibb.co/9G9YnwV/financial-statement.png",
     "service_name": "Financial Statement Making",
     "service_detail": "Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.",
     "service_rate":50000
-  }{
+  },
+  {
     "id": 8,
     "image": "https://i.ibb.co/fQJNdGs/Ledger.png",
     "service_name": "",
     "service_detail": "Ledger Creation",
     "service_rate":"Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit."
-  }{
+  },
+  {
     "id": 9,
     "image": "https://i.ibb.co/02SPcrX/advisor.png",
     "service_name": "Corporate Advisor",
     "service_detail": "Duis a est tincidunt, consectetur ex id, mollis tellus mauris feugiat elit.",
     "service_rate":55000
-  },]
+  }]
