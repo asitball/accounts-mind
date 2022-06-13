@@ -3,11 +3,11 @@ import { Form, Button } from 'react-bootstrap';
 import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
-    const {signInWithGoogle} = useFirebase();
+    const { signInWithGoogle } = useFirebase();
     return (
-        <div>
-           <h4>Please Login</h4>
-           <Form>
+        <div className='container w-50'>
+            <h4 className='mt-5 pt-5'>Please Login</h4>
+            <Form className=' mx-auto'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Group className="my-4" controlId="formBasicEmail">
                         <Form.Label>Your Email address</Form.Label>
@@ -23,14 +23,15 @@ const Login = () => {
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 <Button variant="primary" type="Login">
-                   Login
+                    Login
+                </Button>
+                <br />
+                <br />
+                <Button onClick={signInWithGoogle} variant="primary" type="Login">
+                    Google Sign In
                 </Button>
             </Form>
-            <br />
-            <br />
-            <Button onClick={signInWithGoogle} variant="primary" type="Login">
-                 Google Sign In
-                </Button>
+
         </div>
     );
 };

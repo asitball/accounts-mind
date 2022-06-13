@@ -2,9 +2,9 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 const Register = () => {
     return (
-        <div>
-            <h4>Please Register</h4>
-            <Form>
+        <div className='container w-50'>
+            <h4 className='mt-5 pt-5'>Please Register</h4>
+            <Form className=''>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Your name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your name" />
