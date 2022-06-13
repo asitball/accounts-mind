@@ -19,7 +19,7 @@ const Service = ({ service }) => {
                 <Card.Text>
                     <h5>{service_rate}</h5>
                 </Card.Text>
-                <Button onClick={()=> handleMoreDetail(id)}  variant="primary">More Detail</Button>
+                <Button onClick={()=> handleMoreDetail(id)}  variant="primary">Checkout</Button>
             </Card.Body>
         </Card>
 
