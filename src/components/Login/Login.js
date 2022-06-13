@@ -2,21 +2,20 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useFirebase from '../../hooks/useFirebase';
-// import auth from '../../firebase.init';
-// import {auth} from 'firebase'
-// import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init'
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const { signInWithGoogle } = useFirebase();
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
-    // const [
-    //     signInWithEmailAndPassword,
-    //     user,
-    //     loading,
-    //     error,
-    //   ] = useSignInWithEmailAndPassword(auth);
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useSignInWithEmailAndPassword(auth);
     const handleEmailBlur = event =>{
         setEmail(event.target.value)
     }

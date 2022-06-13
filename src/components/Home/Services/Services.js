@@ -15,7 +15,7 @@ const Services = () => {
            <h2 className='m-5 text-primary'>Services</h2>
           <div className='row g-4'>
           {
-            services.map(service => <Service key={service.id} service={service}></Service>)
+            services?.map(service => <Service key={service.id} service={service}></Service>)
            }
           </div>
         </div>

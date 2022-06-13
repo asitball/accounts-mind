@@ -6,7 +6,7 @@ import logo1 from '../../../images/logo1.png';
 const Header = () => {
     const { user,handleSignOut } = useFirebase();
     return (
-        <div >
+        <div>
             <Navbar fixed="top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">

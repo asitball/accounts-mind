@@ -2,7 +2,7 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import app from '../../firebase.init';
+import auth from '../../firebase.init';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 const Register = () => {
     const [email, setEmail] = useState('');
@@ -10,7 +10,7 @@ const Register = () => {
     const [confirmationPassword, setConfirmationPassword] = useState('');
     const [error, setError] = useState('');
     
-    const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(app);
+    const [createUserWithEmailAndPassword] = useCreateUserWithEmailAndPassword(auth);
 
     const handleEmailBlur = event => {
         setEmail(event.target.value)
