@@ -16,6 +16,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/"></Nav.Link>
                         <Nav.Link href='/#services'>Services</Nav.Link>
                         <Nav.Link as={Link} to="about">About me</Nav.Link>
+                        <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                     </Nav>
                      <span className='text-white mx-4'>{user?.displayName && user.displayName}</span>
                     <Nav>
