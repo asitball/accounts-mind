@@ -50,6 +50,7 @@ const Blogs = () => {
                     <li>NativeScript</li>
                     <li>RxDB</li>
                     <li>Flutte</li>
+                    <li>Flutte</li>
                 </ul>
             </div>
         </div>
