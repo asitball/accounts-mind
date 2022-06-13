@@ -22,7 +22,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <h3>Financial Analysis</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>I do provide financial analysis, economics, finance and accounting related task</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -34,7 +34,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Investment Analysis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>I do provide investment analysis services very trstly</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,7 +47,7 @@ const Banner = () => {
                     <Carousel.Caption>
                         <h3>Auditing</h3>
                         <p>
-                            Auditing typically refers to financial statement audits or an objective examination and evaluation of a company's financial statements
+                        I do provide coporate and others auditing services.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

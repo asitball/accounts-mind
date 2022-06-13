@@ -7,7 +7,7 @@ const Header = () => {
     const { user,handleSignOut } = useFirebase();
     return (
         <div >
-            <Navbar sticky='top' bg="dark" variant="dark">
+            <Navbar fixed="top" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img height={'35px'} src={logo1} alt="" />
@@ -25,12 +25,12 @@ const Header = () => {
                             user?.uid ?
                                 <button onClick={handleSignOut} className='btn btn-primary'>sign out</button>
                                 :
-                                <Nav.Link as={Link} to="login">Login</Nav.Link>
+                                <Nav.Link className='btn btn-secondary'  as={Link} to="login">Login</Nav.Link>
 
                         }
                     </Nav>
                     <Nav>
-                        <Nav.Link as={Link} to="register">Register</Nav.Link>
+                        <Nav.Link className='btn btn-secondary mx-3' as={Link} to="register">Register</Nav.Link>
                     </Nav>
 
                 </Container>

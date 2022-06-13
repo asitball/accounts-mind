@@ -3,8 +3,9 @@ import { Table } from 'react-bootstrap';
 
 const Blogs = () => {
     return (
-        <div className='container mt-4'>
-            <h2>1. Difference between authorization and authentication:</h2>
+        <div className='container mt-5 pt-5'>
+            <h2>1. Difference between authorization and authentication</h2>
+            <p><strong>Answer:</strong> Difference between authorization and authentication below:</p>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr className='text-center'>
@@ -39,7 +40,7 @@ const Blogs = () => {
             </Table>
             <div className='mt-4'>
                 <h2>2. What other services does firebase provide other than Authentication:</h2>
-                <p>Firebase is one of the most popular authentication system for web & apps development. Firebase authentication system is very easy and usefull fro every developer. Fisebase also some authentication system  this list below:</p>
+                <p><strong>Answer:</strong> Firebase is one of the most popular authentication system for web & apps development. Firebase authentication system is very easy and usefull fro every developer. Fisebase also some authentication system  this list below:</p>
                 <ul>
                     <li>
                         Back4App
